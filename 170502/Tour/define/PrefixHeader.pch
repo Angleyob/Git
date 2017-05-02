@@ -1,0 +1,145 @@
+//
+//  PrefixHeader.pch
+//  Tour
+//
+//  Created by Euet on 16/11/30.
+//  Copyright © 2016年 lhy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+//medel--头文件
+#import "Account.h"
+#import "Activity.h"
+#import "Insurance.h"
+#import "RequestBase.h"
+#import "InsuraceListmodel.h"
+#import "Basic.h"
+#import "FlightModel.h"
+#import "Flight.h"
+#import "CabinQuery.h"
+#import "PayVC.h"
+#import "PayTypeQueryRequest.h"
+#import "PayRequest.h"
+#import "Pay orderInfosmodel.h"
+#import "paySucceedVC.h"
+
+#import "TrainStationQuery.h"
+#import "Train.h"
+#import "TrainVC.h"
+#import "TrainPassengerList.h"
+#import "TrainorderVC.h"
+
+#import "HotelQuery.h"
+#import "Hotel.h"
+#import "hotelMessageVC.h"
+#import "hotelmssModel.h"
+
+//原生VC--头文件
+
+#import "ZCViewController.h"
+#import "LogViewController.h"
+#import "LoginViewController.h"
+#import "ForgetpasswordViewController.h"
+#import "ReplaceViewController.h"
+#import "ChangeMenViewController.h"
+#import "FirstViewController.h"
+#import "MainViewController.h"
+#import "OrderViewController.h"
+#import "NeedViewController.h"
+#import "addMenViewController.h"
+#import "FlightMessageVC.h"
+#import "OrderVC.h"
+#import "CheckVC.h"
+#import "leglistmodel.h"
+#import "PassengerListmodel.h"
+#import "RemarkString.h"
+#import "Passageresmodel.h"
+#import "RuleVC.h"
+#import "BreachReasonQueryRequest.h"
+#import "InsureQueryRequest.h"
+#import "CostCenterQueryRequest.h"
+#import "ProjectQueryRequest.h"
+
+
+#import "ApproveApplyRequest.h"
+#import "Approval.h"
+#import "ApprovalVC.h"
+#import "ApprovFlightVC.h"
+#import "ApprovTrainVC.h"
+#import "ApprovHotelVC.h"
+
+#import "orderPayVc.h"
+#import "PayVC.h"
+#import "RefundListmodel.h"
+#import "OrderChangeListmodel.h"
+
+#import "FirstViewController.h"
+
+#import "TrainorderList.h"
+#import "FlightorderList.h"
+#import "HotelorderList.h"
+
+
+#import "CardNoQueryRequest.h"
+#import "contactVC.h"
+#import "ContactQueryRequest.h"
+
+
+#import "StatusMessageVC.h"
+#import "StatusListVC.h"
+#import "StatusLookupVC.h"
+#import "NumLookupVC.h"
+#import "AttentionFlightDid.h"
+#import "LookupSiteVC.h"
+
+//类工具--头文件
+#import "changeDateVc.h"
+#import "secretNum.h"
+#import "AlertViewManager.h"
+#import "NSArray+log.h"
+#import "NSDictionary+log.h"
+#import "UIAlertView+show.h"
+#import "ZYZModelTool.h"
+#import "MJExtension.h"
+#import "weekday.h"
+#import "UIAlertView+show.h"
+#import "framsizeclass.h"
+#import "phoneNumclass.h"
+#import "LGLCalendarDate.h"
+
+//第三方--头文件
+#import "IQKeyboardManager.h"
+#import "SVProgressHUD.h"
+#import "NetWorking.h"
+#import "Masonry.h"
+#import "JPUSHService.h"
+#import "UIImageView+WebCache.h"
+
+#import "UPPaymentControl.h"
+
+
+
+
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>//引入base相关所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapComponent.h>//引入地图功能所有的头文件
+
+#import <BaiduMapAPI_Search/BMKSearchComponent.h>//引入检索功能所有的头文件
+
+#import <BaiduMapAPI_Cloud/BMKCloudSearchComponent.h>//引入云检索功能所有的头文件
+
+#import <BaiduMapAPI_Location/BMKLocationComponent.h>//引入定位功能所有的头文件
+
+#import <BaiduMapAPI_Utils/BMKUtilsComponent.h>//引入计算工具所有的头文件
+
+#import <BaiduMapAPI_Radar/BMKRadarComponent.h>//引入周边雷达功能所有的头文件
+
+#import <BaiduMapAPI_Map/BMKMapView.h>//只引入所需的单个头文件
+//宏定义--头文件
+#import "API_HTTP.h"
+#import "APIClass.h"
+#import "CommonDefine.h"
+#endif /* PrefixHeader_pch */
+#endif
