@@ -81,8 +81,7 @@ NSString* const appid = @"wx489dbe6b5d1efcd5";
 //定制导航栏视图控制器
 -(void)customUINavigationController
 {
-//    OrderVC*viewController  = [[OrderVC alloc] init];
-//    FlightMessageVC *viewController  = [[FlightMessageVC alloc] init];
+
     LoginViewController *viewController  = [[LoginViewController alloc] init];
     //创建一个导航栏视图控制器
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
